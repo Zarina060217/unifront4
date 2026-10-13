@@ -32,7 +32,7 @@
 
         <div class="container">
             <h3>Contact Us</h3>
-            <form class="row g-3" novalidate>
+            <form class="row g-3 needs-val" novalidate>
                 <div class="col-md-6">
                     <label for="name" class="form-label">Name:</label>
                     <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
@@ -61,7 +61,7 @@
         </div>
 
         <script>
-            document.querySelector("form").addEventListener("submit", function(event){
+            document.querySelector(".needs-val").addEventListener("submit", function(event){
                 event.preventDefault();
 
                 this.querySelectorAll("input, textarea").forEach(field => {
