@@ -65,7 +65,7 @@
                 event.preventDefault();
 
                 this.querySelectorAll("input, textarea").forEach(field => {
-                    const valid = field.chackValidity();
+                    const valid = field.checkValidity();
                     field.classList.toggle("is-valid", valid);
                     field.classList.toggle("is-invalid", !valid);
                 });
