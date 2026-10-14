@@ -17,3 +17,14 @@
 
 * <img width="715" height="681" alt="image" src="https://github.com/user-attachments/assets/da74efe2-06dc-4517-b990-ccf5b9c7aa48" />
 * <img width="681" height="312" alt="image" src="https://github.com/user-attachments/assets/929a1efd-04d9-4fc6-9cf4-d42cb8b50ec9" />
+
+* Part3
+* <img width="718" height="846" alt="image" src="https://github.com/user-attachments/assets/b9a4b129-c2f5-497c-a421-bcfe2168d8f1" />
+* <img width="464" height="583" alt="image" src="https://github.com/user-attachments/assets/35e93e6d-fc9d-46af-b4c4-b92f2aa8c415" />
+* <img width="935" height="831" alt="image" src="https://github.com/user-attachments/assets/46d7bc89-f3e3-4871-93c0-1cf81fb4e6df" />
+* <img width="941" height="827" alt="image" src="https://github.com/user-attachments/assets/cd32a03d-5c60-47e5-ab08-87799ffd9164" />
+
+* Summary:
+* Part 1 (HTML Forms & Validation): Created a basic contact form featuring Name, Email, and Message fields with proper <label> elements, and added HTML5 built-in validation attributes (required, minlength).
+* Part 2 (Bootstrap Forms & Styles): Recreated the contact form using Bootstrap form classes and the responsive grid system, implementing interactive validation feedback (is-valid, is-invalid) via JavaScriptю.
+* Part 3 (Registration Form): Built a responsive registration page including First Name, Last Name, Email, Password, Confirm Password, Gender radio buttons, Hobbies checkboxes, and a Country dropdown with custom password-matching logic and Submit/Reset buttons.
