@@ -173,7 +173,7 @@
                         confirmPassword.value === password.value ? "" : "Passwords do not match"
                     );
                 }
-                    con
+                    
                 this.querySelectorAll("[required]").forEach(field => {
                     const valid = field.checkValidity();
                     field.classList.toggle("is-valid", valid);
@@ -184,7 +184,7 @@
                 if (confirmPassword) {
                     confirmPassword.setCustomValidity("");
                 }
-                this.query.SelectorAll(".is-valid, .is-invalid").forEach(field => {
+                this.querySelectorAll(".is-valid, .is-invalid").forEach(field => {
                     field.classList.remove("is-valid", "is-invalid");
                 })
             })
